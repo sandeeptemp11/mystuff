@@ -7,7 +7,7 @@ Questions:
 6) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/07bfa1e3-43e4-4653-97af-831bd6dfe52d) <br/>
 7) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/6358a050-8443-4dbb-b872-e1985ed0337d) <br/>
 8) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/24ca4cc2-5050-41dd-b6f8-53992cd58c65) <br/>
-1) <br/> <br/>
+1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/937f4224-c9c7-407e-9d6b-8b0762c4a933) n = 5 <br/>
 1) <br/> <br/>
 1) <br/> <br/>
 1) <br/> <br/>
