@@ -8,7 +8,7 @@ Questions:
 7) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/6358a050-8443-4dbb-b872-e1985ed0337d) <br/>
 8) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/24ca4cc2-5050-41dd-b6f8-53992cd58c65) <br/>
 1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/937f4224-c9c7-407e-9d6b-8b0762c4a933) n = 5 <br/>
-1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/4148cee8-0741-4970-b092-38ad9c78e1d1) <br/>
+
 1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/c94648f0-a4db-4a7e-872d-ead39d9dc040) <br/>
 1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/5084ed8a-ab27-43b0-be0e-37569dab968d) <br/>
 1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/45bed9eb-c575-4ed5-882b-43498cc4eef0) <br/>
