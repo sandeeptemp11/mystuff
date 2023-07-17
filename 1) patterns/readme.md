@@ -19,7 +19,7 @@ Questions:
 1) <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/694d0b9f-b910-461f-91ed-5dac4b8565fc) <br/>
 1) Floyd's Triangle Pattern <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/59057ddc-3a81-4b8c-b8cd-e5c017e98d53) <br/>
 1) Pascal's Triangle Pattern <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/35aa13dd-b308-4f15-95b2-6546cebde4d0) <br/>
-1) <br/> <br/>
+1) Hollow diamond inscribed in a rectangle: <br/> ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/3eeb33c5-3ddb-459e-b2f1-fe7916eaa2c3) <br/>
 1) <br/> <br/>
 1) <br/> <br/>
 1) <br/> <br/>
