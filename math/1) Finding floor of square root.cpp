@@ -1,4 +1,4 @@
-template <typename t> int findsqrt(t& n){
+template <typename t> int findsqrt(t& n){ // time: O(logn), space: O(1)
     if(n <= 1) return n;
     int low = 2;
     int high = min((int)1e9, (int)n);
