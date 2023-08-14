@@ -1,0 +1,2 @@
+You are given with interger n (1 <= n <= 10^5). A tree is having nodes 1 to n and each node has value arr[i] ( 1 <= i <= n). You are given with n-1 edges. Find the edge such that 
+when you remove the edge from the given tree you get two trees differ by minimum value.
