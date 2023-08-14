@@ -1,0 +1,4 @@
+A instructor wants to conduct a test. There are on total n questions given to the students and the instructor gave k specific questions needed to be solved compulsorily. 
+As the instructor wants the question paper even tougher he told that for solving question i (1 <= i <= n) there are ti( 0 <= ti <= n-1) questions needed to be solved first.
+(Note that among the ti questions the question i will not be there). Help the students to find the minimum number of questions to be solved to pass the exam. If it is not possible to 
+pass the exam print -1.
