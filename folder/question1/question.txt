@@ -1,0 +1,3 @@
+In a classroom there are 'n' tables marked from 0 to n - 1. You are given with a string str where for 0 <= i <= n - 1 str[i] = 'S' when students sits at table i else 
+str[i] = '.'. A computer can only be used by a student only if the computer is placed immediate adjacent to it. Note that 2 students can use the same computer.
+Find the minimum number of computers needed to accomodate all the students, if it is not possible to accomodate the students print -1.
