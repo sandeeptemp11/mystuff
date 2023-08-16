@@ -1,7 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-static constexpr int n = 5; // why this is needed, constexpr or const is neded but why?
+const int n = 5; // why this is needed
 
 template <typename t> class Queue{
     t arr[n];
@@ -25,7 +25,7 @@ template <typename t> class Queue{
         }
     }
 
-    void pop(){
+    void dequeue(){
         if(!isEmpty()){
             if(front == rear){
                 front = -1;
@@ -49,7 +49,7 @@ int main(){
     cout << "CHECK1\n";
     cout << q.getFront() << "\n";
     cout << q.getRear() << "\n";
-    q.pop();
+    q.dequeue();
     q.push(100);
 
     cout << "\nCHECK2\n";
@@ -61,7 +61,7 @@ int main(){
     cout << q.getFront() << "\n";
     cout << q.getRear() << "\n";
 
-    while(!q.isEmpty()) q.pop();
+    while(!q.isEmpty()) q.dequeue();
     q.push(100);
     q.push(99);
     cout << "\nCHECK4\n";
