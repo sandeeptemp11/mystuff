@@ -1,7 +1,7 @@
 #include <iostream>
 #include <bits/stdc++.h>
 using namespace std;
-static constexpr int n = 5; // why this is needed
+static constexpr int n = 5; // why this is needed, constexpr or const is neded but why?
 
 template <typename t> class Queue{
     t arr[n];
