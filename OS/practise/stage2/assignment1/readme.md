@@ -1,1 +1,13 @@
+Create a sample file name 'sample.dat' in myexpos and write some data in it. <br/>
 
+load the data into xfs-disk: <br/>
+load --data $HOME/myexpos/sample.dat <br/>
+We can observe the change at 69th location <br/>
+<br/>
+
+Now copy the root file content to some txt file <br/>
+copy 5 5 $HOME/myexpos/rootcontent.txt <br/>
+
+<br/>
+The rootcontent.txt contains the following: <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/4694f368-e375-45a2-ae33-c76613498b58) <br/>
