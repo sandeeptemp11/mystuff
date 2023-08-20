@@ -20,4 +20,12 @@ copy 5 5 $HOME/myexpos/rootcontent.txt <br/>
  <br/>
 
 After deleting the sample.dat file the changes are: <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/73826006-6120-4f80-ab9c-ae0c96f286ed)
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/73826006-6120-4f80-ab9c-ae0c96f286ed) <br/>
+
+In disk free list 69th location is free: <br/>
+df <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/adfd3e8d-8b22-4462-a684-b7c4e1e07b39) <br/>
+
+inode table after deleting: <br/>
+dump --inodeusertable <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/5553857b-39d4-4d35-8e7f-ee5f4c12a921) <br/>
