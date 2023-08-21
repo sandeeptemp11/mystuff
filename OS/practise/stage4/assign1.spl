@@ -1,0 +1,8 @@
+R0 = 1;
+alias sum R1;
+sum = 0;
+while(R0 <= 20) do
+  sum = sum + (R0*R0);
+  R0 = R0 + 1;
+endwhile;
+print sum;
