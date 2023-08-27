@@ -16,5 +16,5 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
 A bootstrap is the program that initializes the operating system (OS) during startup. Bootloader stands for Bootstrap Loader which is the compact software which is responsible to load the operating system into the memory of the computer. The bootloader will always run whenever the computer system is started or restarted. <br/>
 Once the OS modules and application programs are loaded into the XSM machine's disk, the XSM simulator can be used to bootstrap the OS into the machine memory and start execution. <br/>
 1) High level system design: https://exposnitc.github.io/os_design.html
-2) eXpos specification: https://exposnitc.github.io/os_spec.html
-3) eXpfs format: https://exposnitc.github.io/os_spec-files/eXpFS.html
+2) eXpOS specification: https://exposnitc.github.io/os_spec.html
+3) eXpFS format: https://exposnitc.github.io/os_spec-files/eXpFS.html
