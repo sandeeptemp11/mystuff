@@ -17,3 +17,4 @@ A bootstrap is the program that initializes the operating system (OS) during sta
 Once the OS modules and application programs are loaded into the XSM machine's disk, the XSM simulator can be used to bootstrap the OS into the machine memory and start execution. <br/>
 1) High level system design: https://exposnitc.github.io/os_design.html
 2) eXpos specification: https://exposnitc.github.io/os_spec.html
+3) eXpfs format: https://exposnitc.github.io/os_spec-files/eXpFS.html
