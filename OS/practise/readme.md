@@ -1,6 +1,6 @@
 # Interfaces <br/>
 XSM architecture specification	https://exposnitc.github.io/arch_spec.html <br/>
-Application Binary Interface	https://exposnitc.github.io/abi.html <br/>
+Application Binary Interface (ABI)	https://exposnitc.github.io/abi.html <br/>
 Experimental File system specification	https://exposnitc.github.io/os_spec-files/eXpFS.html <br/>
 eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFive <br/>
  <br/>
@@ -18,3 +18,6 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 1) High level system design: https://exposnitc.github.io/os_design.html
 2) eXpOS specification: https://exposnitc.github.io/os_spec.html
 3) eXpFS format: https://exposnitc.github.io/os_spec-files/eXpFS.html
+4) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html
+5) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+6) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html
