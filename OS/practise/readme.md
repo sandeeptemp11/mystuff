@@ -9,7 +9,8 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
 #  Expos package : OS development tools <br/>
  1) XSM interface : https://exposnitc.github.io/support_tools-files/xfs-interface.html <br/>
  2) XSM simulator: https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
- 3) compilers for ExpL and SPL <br/>
+ 3) compiler for ExpL <br/>
+ 4) compiler for SPL <br/>
 
 # NOTES: <br/>
 A bootstrap is the program that initializes the operating system (OS) during startup. Bootloader stands for Bootstrap Loader which is the compact software which is responsible to load the operating system into the memory of the computer. The bootloader will always run whenever the computer system is started or restarted. <br/>
