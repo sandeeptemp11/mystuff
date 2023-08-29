@@ -1,8 +1,14 @@
 Create a sample file name 'sample.dat' in myexpos and write some data in it. <br/>
 
 load the data into xfs-disk: <br/>
-load --data $HOME/myexpos/sample.dat <br/>
-We can observe the change at 69th location <br/>
+load --data $HOME/oslab/stage2/sample.dat <br/>
+We can observe the change (0 changed to 1) at 69th location <br/>
+<br/>
+cat command in ./xfs-iterface <br/>
+Data in sample.dat <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/2dba00fc-8791-47b5-8ad0-c58a195519f3) <br/>
+Root content: <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/f22fd552-97aa-40e2-b917-a5d3521056c2) <br/>
 <br/>
 
 Now copy the root file content to some txt file <br/>
