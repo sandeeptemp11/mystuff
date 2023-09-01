@@ -25,7 +25,6 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 8) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
 
 # Doubts <br/>
-1) When a file is loaded why an entry is created in both root file and inode_file?
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
 3) What is meant by eXpFS is simulated file system?
 4) 
