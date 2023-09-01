@@ -22,6 +22,7 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 5) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
 6) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html
 7) eXpOS implementation: https://exposnitc.github.io/os_implementation.html
+8) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
 
 # Doubts <br/>
 1) When a file is loaded why an entry is created in both root file and inode_file?
