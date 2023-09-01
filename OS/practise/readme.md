@@ -7,7 +7,7 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
  1) SPL (System Programming Language) https://exposnitc.github.io/support_tools-files/spl.html <br/>
  2) Experimental language (eXPL) : https://exposnitc.github.io/support_tools-files/expl.html <br/>
 #  Expos package : OS development tools <br/>
- 1) XSM interface : https://exposnitc.github.io/support_tools-files/xfs-interface.html <br/>
+ 1) XFS interface : https://exposnitc.github.io/support_tools-files/xfs-interface.html <br/>
  2) XSM simulator: https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
  3) compiler for ExpL <br/>
  4) compiler for SPL <br/>
