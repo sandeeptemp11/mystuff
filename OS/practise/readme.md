@@ -24,7 +24,7 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 7) eXpOS implementation: https://exposnitc.github.io/os_implementation.html
 8) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
 9) XSM instruction et : https://exposnitc.github.io/arch_spec-files/instruction_set.html
-10) XSM pagging hardware and address translation <br>
+10) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
