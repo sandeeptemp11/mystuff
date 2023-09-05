@@ -12,3 +12,7 @@ copying the blocks 3 and 4: <br/>
 after dumping inodeusertable and rootfile: <br/>
 (in xfs-interface) : <br/>
 ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/7a0acd4a-73d4-49f3-9115-4d8d664d4510)
+
+copying the sample.dat from disk : <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/f6c7997e-5474-4b5d-93ff-9e61bc985c86) <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/9b0e537f-7304-4fb1-b235-fbc60d6e238f) <br/>
