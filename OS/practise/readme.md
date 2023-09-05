@@ -34,10 +34,12 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 8) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
 9) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
    Inode Table contains information such as the file type, file name, file size, userid, permission and the block numbers of the data blocks of the file. <br/>
-10) eXpOS implementation: https://exposnitc.github.io/os_implementation.html <br/>
+XSM provides just three instructions to manipulate the disk – LOAD, LOADI and STORE. <br/>
+   eXpOS implementation: https://exposnitc.github.io/os_implementation.html <br/>
     XSM machine's disk contains 512 blocks, each capable of storing 512 words. <br/>
     The eXpFS format specifies that each data/executable file can span across at most four data blocks <br/>
     The Inode table occupies only the first 960 words (60 entries, each of size 16 words) in the disk blocks 3 and 4. User table occupies the next 32 words (16 entries, each of size 2 words) and the last 32 words are reserved for future use. <br/>
+    
 11) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
 12) 
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
