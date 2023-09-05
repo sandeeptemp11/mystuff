@@ -17,15 +17,20 @@ A bootstrap is the program that initializes the operating system (OS) during sta
 Once the OS modules and application programs are loaded into the XSM machine's disk, the XSM simulator can be used to bootstrap the OS into the machine memory and start execution. <br/>
 1) High level system design: https://exposnitc.github.io/os_design.html
 2) eXpOS specification: https://exposnitc.github.io/os_spec.html
-3) eXpFS format: https://exposnitc.github.io/os_spec-files/eXpFS.html
-4) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html
-5) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
-6) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html
-7) eXpOS implementation: https://exposnitc.github.io/os_implementation.html
-8) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
-9) XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html
-10) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
-11) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
+3) eXpFS format: https://exposnitc.github.io/os_spec-files/eXpFS.html <br/>
+   There are 3 types of eXpfs files : <br/>
+   a) eXpfs Root (each root entry has name, size, type, username, permission) <br/>
+           The operations on the root file are Open, Close, Read and Seek. <br/>
+   b) eXpfs Data files <br/>
+   c) eXpfs executable files <br/>
+5) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html
+6) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+7) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html
+8) eXpOS implementation: https://exposnitc.github.io/os_implementation.html
+9) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
+10) XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html
+11) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
+12) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
