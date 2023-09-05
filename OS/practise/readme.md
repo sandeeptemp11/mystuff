@@ -11,6 +11,7 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
 
     XFS Interface (eXperimental File System Interface) is an external interface to access the eXpFS filesystem of the eXpOS "from the host (UNIX) system". <br/>
  2) XSM simulator: https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
+    XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html <br/>
  3) compiler for ExpL : https://exposnitc.github.io/support_tools-files/expl.html <br/>
  4) compiler for SPL <br/>
 
@@ -31,12 +32,14 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 6) ABI : https://exposnitc.github.io/abi.html <br/>
 7) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html
 8) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
-9) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html
+9) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
+   Inode Table contains information such as the file type, file name, file size, userid, permission and the block numbers of the data blocks of the file. <br/>
 10) eXpOS implementation: https://exposnitc.github.io/os_implementation.html <br/>
     XSM machine's disk contains 512 blocks, each capable of storing 512 words. <br/>
     The eXpFS format specifies that each data/executable file can span across at most four data blocks <br/>
+    The Inode table occupies only the first 960 words (60 entries, each of size 16 words) in the disk blocks 3 and 4. User table occupies the next 32 words (16 entries, each of size 2 words) and the last 32 words are reserved for future use. <br/>
 11) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
-12) XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html
+12) 
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 14) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
 
