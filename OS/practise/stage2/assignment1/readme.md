@@ -1,37 +1,5 @@
-Create a sample file name 'sample.dat' in myexpos and write some data in it. <br/>
+copying the root file : <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/faa9c7ba-dead-4a42-803b-17cb17c360a6) <br/>
 
-load the data into xfs-disk: <br/>
-load --data $HOME/oslab/stage2/sample.dat <br/>
-We can observe the change (0 changed to 1) at 69th location <br/>
-<br/>
-cat command in ./xfs-iterface <br/>
-Data in sample.dat <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/2dba00fc-8791-47b5-8ad0-c58a195519f3) <br/>
-Root content: <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/f22fd552-97aa-40e2-b917-a5d3521056c2) <br/>
-<br/>
-
-Now copy the root file content to some txt file <br/>
-copy 5 5 $HOME/myexpos/rootcontent.txt <br/>
-
-<br/>
-The rootcontent.txt contains the following: <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/4694f368-e375-45a2-ae33-c76613498b58) <br/>
-
-<br/>
-**Assignment 2** <br/>
-Delete the sample.dat file <br/>
-rm sample.dat <br/>
-copy 5 5 $HOME/myexpos/rootcontent.txt <br/>
- <br/>
-
-After deleting the sample.dat file the changes are: <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/73826006-6120-4f80-ab9c-ae0c96f286ed) <br/>
-
-In disk free list 69th location is free: <br/>
-df <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/adfd3e8d-8b22-4462-a684-b7c4e1e07b39) <br/>
-
-inode table after deleting: <br/>
-dump --inodeusertable <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/5553857b-39d4-4d35-8e7f-ee5f4c12a921) <br/>
+root content before deletion: <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/0df7378c-ef51-4a1a-aea5-d88d863ca585)
