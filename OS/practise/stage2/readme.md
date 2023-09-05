@@ -16,4 +16,4 @@ after dumping inodeusertable and rootfile: <br/>
 copying the sample.dat from disk : <br/>
 ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/f6c7997e-5474-4b5d-93ff-9e61bc985c86) <br/>
 In the follwing picture each line 16 characters <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/9b0e537f-7304-4fb1-b235-fbc60d6e238f) <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/16a585fa-dadc-4690-a220-f8702342132a) <br/>
