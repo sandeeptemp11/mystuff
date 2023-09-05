@@ -8,4 +8,6 @@ removing the data file sample.dat <br/>
 
 ![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/824b4d7b-52ac-45cb-a276-13b9188ae472) <br/>
 
+df : <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/53d40f5d-ac97-4384-aa6a-37443a5c24a8)
 
