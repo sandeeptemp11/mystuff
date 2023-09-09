@@ -1,0 +1,9 @@
+alias ele R0;
+alias sum R1;
+sum = 0;
+ele = 1;
+while(ele <= 20) do
+	sum = sum + ele*ele;
+	ele = ele + 1;
+	endwhile;
+print sum;
