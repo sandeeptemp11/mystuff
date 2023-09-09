@@ -1,2 +1,2 @@
-Doing assignment 1: <br/>
-![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/3d33731f-e610-4a5b-aa6e-547febb17ac8)
+Printing odd nums: <br/>
+![image](https://github.com/sandeeptemp11/mystuff/assets/134224176/6002b19e-4087-4c47-9fd0-1cb632e29c09)
