@@ -30,18 +30,17 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 
    High level system call interface: https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
 6) ABI : https://exposnitc.github.io/abi.html <br/>
-7) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html
-8) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols.
+7) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
+8) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols <br/>
 9) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
-   Inode Table contains information such as the file type, file name, file size, userid, permission and the block numbers of the data blocks of the file. <br/>
-XSM provides just three instructions to manipulate the disk – LOAD, LOADI and STORE. <br/>
-   eXpOS implementation: https://exposnitc.github.io/os_implementation.html <br/>
-    XSM machine's disk contains 512 blocks, each capable of storing 512 words. <br/>
-    The eXpFS format specifies that each data/executable file can span across at most four data blocks <br/>
-    The Inode table occupies only the first 960 words (60 entries, each of size 16 words) in the disk blocks 3 and 4. User table occupies the next 32 words (16 entries, each of size 2 words) and the last 32 words are reserved for future use. <br/>
-    
-11) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html
-12) 
+* Inode Table contains information such as the file type, file name, file size, userid, permission and the block numbers of the data blocks of the file. <br/>
+* XSM provides just three instructions to manipulate the disk – LOAD, LOADI and STORE. <br/>
+* eXpOS implementation: https://exposnitc.github.io/os_implementation.html <br/>
+* XSM machine's disk contains 512 blocks, each capable of storing 512 words. <br/>
+* The eXpFS format specifies that each data/executable file can span across at most four data blocks <br/>
+* The Inode table occupies only the first 960 words (60 entries, each of size 16 words) in the disk blocks 3 and 4.
+* User table occupies the next 32 words (16 entries, each of size 2 words) and the last 32 words are reserved for future use. <br/>
+12) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html <br/>
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 14) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
 
