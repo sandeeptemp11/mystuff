@@ -48,3 +48,5 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
 3) What is meant by eXpFS is simulated file system?
 4) when I write code, I am not worrying about the registers previous values, are they backed up??
+5) why did I write idle code in expl and init_code in spl
+6) 
