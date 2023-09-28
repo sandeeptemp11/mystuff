@@ -14,6 +14,7 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
  2) XSM simulator: https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
     XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html <br/>
  3) compiler for ExpL : https://exposnitc.github.io/support_tools-files/expl.html <br/>
+    Expl codes: http://silcnitc.github.io/testprograms.html <br/>
  4) compiler for SPL <br/>
 
 # NOTES: <br/>
