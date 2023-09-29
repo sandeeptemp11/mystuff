@@ -15,6 +15,8 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
     XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html <br/>
  3) compiler for ExpL : https://exposnitc.github.io/support_tools-files/expl.html <br/>
     Expl codes: http://silcnitc.github.io/testprograms.html <br/>
+    high level libraray interface: https://exposnitc.github.io/os_spec-files/dynamicmemoryroutines.html <br/>
+    high level system call interface : https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
  4) compiler for SPL <br/>
 
 # NOTES: <br/>
@@ -45,6 +47,9 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 12) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html <br/>
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 14) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
+15) Memory data staructures: https://exposnitc.github.io/os_design-files/mem_ds.html <br/>
+16) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
+17) process table : https://exposnitc.github.io/os_design-files/process_table.html <br/>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
