@@ -48,10 +48,10 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 14) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
 15) Memory data staructures: https://exposnitc.github.io/os_design-files/mem_ds.html <br/>
-    Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
-16) process table : https://exposnitc.github.io/os_design-files/process_table.html <br/>
-17) Interrupts and exception handling: https://exposnitc.github.io/arch_spec-files/interrupts_exception_handling.html <br/>
-18) Kernal stack management during system calls : https://exposnitc.github.io/os_design-files/stack_smcall.html <br/>
+16) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
+17) process table : https://exposnitc.github.io/os_design-files/process_table.html <br/>
+18) Interrupts and exception handling: https://exposnitc.github.io/arch_spec-files/interrupts_exception_handling.html <br/>
+19) Kernal stack management during system calls : https://exposnitc.github.io/os_design-files/stack_smcall.html <br/>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
