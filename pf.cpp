@@ -1,18 +1,11 @@
-#include <bits/stdc++.h>
-using namespace std;
-
-int main(){
-    int n;
-    cin >> n;
-
-    map<int,int> pf; // prime factors map of frequency
-    for(int i = 2; i <= sqrt(n); i++){
-        while(n%i == 0){
-            pf[i]++;
-            n /= i;
-        }
+int floorSqrt(int n){
+    int low = 1;
+    int high = n;
+    int mid;
+    while(low <= high){
+        mid = (low + high) /2;
+        if(mid > n/mid) high = mid-1;
+        else low = mid+1;
     }
-    if(n > 1) pf[n]++;
-
-    for(auto it: pf) cout << it.first << " : " << it.second << "\n";
+    return high;
 }
