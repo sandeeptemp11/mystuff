@@ -52,6 +52,7 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 17) process table : https://exposnitc.github.io/os_design-files/process_table.html <br/>
 18) Interrupts and exception handling: https://exposnitc.github.io/arch_spec-files/interrupts_exception_handling.html <br/>
 19) Kernal stack management during system calls : https://exposnitc.github.io/os_design-files/stack_smcall.html <br/>
+20) Debugger : https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
