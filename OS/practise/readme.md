@@ -36,7 +36,6 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 6) ABI : https://exposnitc.github.io/abi.html <br/>
 7) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
 8) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols <br/>
-9) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
 * Inode Table contains information such as the file type, file name, file size, userid, permission and the block numbers of the data blocks of the file. <br/>
 * XSM provides just three instructions to manipulate the disk – LOAD, LOADI and STORE. <br/>
 * eXpOS implementation: https://exposnitc.github.io/os_implementation.html <br/>
@@ -48,11 +47,19 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 14) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
 15) Memory data staructures: https://exposnitc.github.io/os_design-files/mem_ds.html <br/>
-16) Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
+    Disk data structures: https://exposnitc.github.io/os_design-files/disk_ds.html <br/>
 17) process table : https://exposnitc.github.io/os_design-files/process_table.html <br/>
 18) Interrupts and exception handling: https://exposnitc.github.io/arch_spec-files/interrupts_exception_handling.html <br/>
 19) Kernal stack management during system calls : https://exposnitc.github.io/os_design-files/stack_smcall.html <br/>
     Debugger : https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
+
+20) Semaphores: <br/>
+
+21) FILES: <br/>
+    [open](https://exposnitc.github.io/os_design-files/open.html) <br/>
+    [close](https://exposnitc.github.io/os_design-files/close.html) <br/>
+    [read](https://exposnitc.github.io/os_design-files/read.html) <br/>
+    [write](https://exposnitc.github.io/os_design-files/write.html) <br/>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
