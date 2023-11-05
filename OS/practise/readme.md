@@ -52,10 +52,10 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 18) Interrupts and exception handling: https://exposnitc.github.io/arch_spec-files/interrupts_exception_handling.html <br/>
 19) Kernal stack management during system calls : https://exposnitc.github.io/os_design-files/stack_smcall.html <br/>
     Debugger : https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
-
-20) Semaphores: <br/>
-
-21) FILES: <br/>
+System calls <br/>
+1) [Shutdown](https://exposnitc.github.io/os_design-files/shutdown.html) <br/>
+2) Semaphores: <br/>
+3) FILES: <br/>
     [open](https://exposnitc.github.io/os_design-files/open.html) <br/>
     [close](https://exposnitc.github.io/os_design-files/close.html) <br/>
     [read](https://exposnitc.github.io/os_design-files/read.html) <br/>
