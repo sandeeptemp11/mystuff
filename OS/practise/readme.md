@@ -5,7 +5,6 @@ Experimental File system specification	https://exposnitc.github.io/os_spec-files
 eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFive <br/>
  <br/>
  1) [SPL](https://exposnitc.github.io/support_tools-files/spl.html) <br/>
- 2) [eXPL](https://exposnitc.github.io/support_tools-files/expl.html) <br/>
 3) [Pocess table](https://exposnitc.github.io/os_design-files/process_table.html) <br/>
 #  Expos package : OS development tools <br/>
  1) XFS interface : https://exposnitc.github.io/support_tools-files/xfs-interface.html <br/>
@@ -13,9 +12,9 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
     XFS Interface (eXperimental File System Interface) is an external interface to access the eXpFS filesystem of the eXpOS "from the host (UNIX) system". <br/>
  2) XSM simulator: https://exposnitc.github.io/support_tools-files/xsm-simulator.html <br/>
     XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html <br/>
- 3) compiler for ExpL : https://exposnitc.github.io/support_tools-files/expl.html <br/>
-    Expl codes: http://silcnitc.github.io/testprograms.html <br/>
-    high level libraray interface: https://exposnitc.github.io/os_spec-files/dynamicmemoryroutines.html <br/>
+ 3) [ExpL](https://exposnitc.github.io/support_tools-files/expl.html) <br/>
+    [Expl codes](http://silcnitc.github.io/testprograms.html) <br/>
+    [high level libraray interface](https://exposnitc.github.io/os_spec-files/dynamicmemoryroutines.html) <br/>
     high level system call interface : https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
  4) compiler for SPL <br/>
 
