@@ -33,7 +33,7 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 
    High level system call interface: https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
 6) ABI : https://exposnitc.github.io/abi.html <br/>
-7) File system calls: https://exposnitc.github.io/os_spec-files/systemcallinterface.html <br/>
+7) 
 8) API : APIs are mechanisms that enable two software components to communicate with each other using a set of definitions and protocols <br/>
 * Inode Table contains information such as the file type, file name, file size, userid, permission and the block numbers of the data blocks of the file. <br/>
 * XSM provides just three instructions to manipulate the disk – LOAD, LOADI and STORE. <br/>
@@ -55,6 +55,7 @@ System calls <br/>
 1) [Shutdown](https://exposnitc.github.io/os_design-files/shutdown.html) <br/>
 2) Semaphores: <br/>
 3) FILES: <br/>
+    [File system calls](https://exposnitc.github.io/os_spec-files/systemcallinterface.html) <br/>
     [open](https://exposnitc.github.io/os_design-files/open.html) <br/>
     [close](https://exposnitc.github.io/os_design-files/close.html) <br/>
     [read](https://exposnitc.github.io/os_design-files/read.html) <br/>
