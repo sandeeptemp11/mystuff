@@ -14,6 +14,7 @@ eXpos library	https://exposnitc.github.io/os_spec-files/misc.html#SixcollapseFiv
     XSM instruction set : https://exposnitc.github.io/arch_spec-files/instruction_set.html <br/>
  3) [ExpL](https://exposnitc.github.io/support_tools-files/expl.html) <br/>
     [Expl codes](http://silcnitc.github.io/testprograms.html) <br/>
+    [Expl test programs](https://exposnitc.github.io/test_prog.html) <br/>
     [high level libraray interface](https://exposnitc.github.io/os_spec-files/dynamicmemoryroutines.html) <br/>
     [high level system call interface](https://exposnitc.github.io/os_spec-files/systemcallinterface.html)<br/>
  4) compiler for SPL <br/>
