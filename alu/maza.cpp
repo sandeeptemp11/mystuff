@@ -18,5 +18,5 @@ int main(){
     cin >> a >> b;
     int x, y;
     int g = gcd(a, b, x, y);
-    cout << a << "*" << x << " + " << b << "*" << y << " = " << g << "\n";
+    cout << a << "*(" << x << ") + " << b << "*(" << y << ") = " << g << "\n";
 }
