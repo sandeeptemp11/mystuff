@@ -63,8 +63,9 @@ System calls <br/>
     [write](https://exposnitc.github.io/os_design-files/write.html) <br/>
     [seek](https://exposnitc.github.io/os_design-files/seek.html) <br/>
 4) multi user implementation: <br/>
-   [multi-user](https://exposnitc.github.io/Tutorials/multiuser_implementation.html) <br/>
+   [multi-user tutorial](https://exposnitc.github.io/Tutorials/multiuser_implementation.html) <br/>
    [expos shell](https://exposnitc.github.io/os_spec-files/shell_spec.html) <br/>
+   [multi-user system calls](https://exposnitc.github.io/os_design-files/multiusersyscalls.html) <br/>
 
 # Doubts <br/>
 2) In my laptop test directory is not created, and also in the website there is no related to install it.
