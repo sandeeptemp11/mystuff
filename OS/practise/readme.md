@@ -46,7 +46,7 @@ Once the OS modules and application programs are loaded into the XSM machine's d
 12) Machine Organisation (Hard disk): https://exposnitc.github.io/arch_spec-files/machine_organisation.html <br/>
 13) XSM pagging hardware and address translation: https://exposnitc.github.io/arch_spec-files/paging_hardware.html <br>
 14) XSM virtual machine modal : https://exposnitc.github.io/virtual_machine_spec.html <br/>
-15) [Memory data staructure](https://exposnitc.github.io/os_design-files/mem_ds.html) <br/>
+15) [Memory data staructure : Open file table, File(Inode) status table, Semaphore table, Disk status table, Buffer table, System status table, terminal status table, Memory free list, Access lock table](https://exposnitc.github.io/os_design-files/mem_ds.html) <br/>
     [Disk data structures: Inode table, Disk free list, Root file, User table](https://exposnitc.github.io/os_design-files/disk_ds.html) <br/>
 17) process table : https://exposnitc.github.io/os_design-files/process_table.html <br/>
 18) Interrupts and exception handling: https://exposnitc.github.io/arch_spec-files/interrupts_exception_handling.html <br/>
