@@ -19,8 +19,8 @@ int knapsack(vector<int> w, vector<int> v, int n, int W){
 		if(dp[i-1][j] == dp[i][j]) i--;
 		else{
 			indices[i-1] = true;
-			i--;
 			j -= w[i-1];
+			i--;
 		}
 	}
 	for(int i = 0; i < n; i++) if(indices[i]) cout << i << " ";
@@ -28,3 +28,25 @@ int knapsack(vector<int> w, vector<int> v, int n, int W){
 	
 	return dp[n][W]; 
 }
+
+
+/*
+Test cases:
+
+test_case 1)
+	n = 7, W = 20
+	w = [6, 5, 1, 5, 6, 5, 9]
+	v = [5, 3, 4, 9, 6, 1, 1]
+ Output:	
+ 	Maximum value: 24
+  	Items in knapsack (0-base indexing) : 0, 2, 3, 4
+
+test_case 2)
+	n = 3, W = 50
+	w = [10, 20, 30]
+	v = [60, 100, 120]
+ Output:	
+ 	Maximum value: 220
+  	Items in knapsack (0-base indexing) : 1, 2
+
+*/
