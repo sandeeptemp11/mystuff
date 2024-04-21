@@ -12,10 +12,9 @@ int main(){
 
     vector <bool> is_prime(1+n, true);
     is_prime[0] = is_prime[1] = false;
-    for(int p = 2; p <= n; p++){
+    for(int p = 2; p*p <= n; p++){
         if(is_prime[p]){
             // p is prime
-            cout << p << " ";
             for(int m = p*p; m <= n; m += p){
                 // m = p * j 
                 // where j >= p
@@ -24,5 +23,6 @@ int main(){
             }
         }
     }
+    for(int p = 0; p <= n; p++) if(is_prime[p]) cout << p << " ";
     cout << "\n";
 }
