@@ -30,14 +30,24 @@ vector <ll> normal_seive(ll n){
 }
 
 /* segmented_seive returns vector which contains prime numbers p such that L <= p and p <= R */
+// Overall time(dominant terms)  : O((R-L+1)loglog(sqrt(R))) + O(sqrt(R) loglog(sqrt(R))) 
+// Overall space(dominant terms) : O(sqrt(R)) + O(R-L+1)
 vector <ll> segmented_seive(ll L, ll R){
+
+    // time  :  O(sqrt(R) loglog(sqrt(R)))     (time consumed in normal_seive())
+    // space :  O(sqrt(R))                     (auxillary space used inside function normal_seive())
     vector <ll> primes_LTEQ_root_R = normal_seive(sqrt(R));
+
+    // time  : O(R-L+1)   (internally to allocate space)
+    // space : O(R-L+1)   (internally to allocate space)
     vector <bool> is_prime(R-L+1, true); // mapping from L to R inclusive
     
     // edge case (when L <= 1)
     // number which satisfies L <= number <= 1 is marked not prime
     for(int num = L; num <= 1; num++) is_prime[num-L] = false;
 
+    // number of multiples of prime (prime <= sqrt(R)) from L to R is O((R-L+1)/prime)
+    // (from euler approximation of sum of reciprocals of primes) we get O((R-L+1)loglog(sqrt(R)))
     for(ll prime: primes_LTEQ_root_R){
         ll smallest_multiple = L;
         if(smallest_multiple%prime != 0) smallest_multiple += prime - (smallest_multiple%prime);
@@ -50,6 +60,7 @@ vector <ll> segmented_seive(ll L, ll R){
         }
     }
 
+    // time : O(R-L+1)
     vector <ll> primes_BTW_L_to_R;
     for (ll num = L; num <= R; num++){
         if(is_prime[num-L]) primes_BTW_L_to_R.push_back(num);
